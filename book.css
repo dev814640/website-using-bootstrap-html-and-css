@@ -1,0 +1,265 @@
+
+*{
+    box-sizing: border-box;
+}
+header,
+section{
+    overflow-x: hidden;
+}
+:root{
+    --single-font:"sniglet","cursive";
+    --rubik:"rubik","cursive";
+    --patua:"patua-one","cursive";
+    --lobster:"lobster","cursive";
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(
+        to bottom,
+        #1fdd6b,#2fc1ff);
+    --light-grey:rgba(255,255,255,0.3)
+}
+header .nav-link {
+    font-size: 0.9rem;
+    color:white;
+    font-weight: 700;
+}
+header .navbar-brand{
+    padding-left: 8rem;
+    font-size: 1.5rem;
+    color:white;
+    font-weight:700;
+}
+header .navbar-brand i{
+    font-size:2rem ;
+    margin-top: -13px;
+}
+header{
+    background-color: #dd5457;
+    background: var(--bggradient);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: azure;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header.nav-link:hover{
+    color: black;
+}
+.col-md-5{
+    padding: 4.5vmin 1vmin;
+}
+.col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    color: whitesmoke;
+}
+.book{
+    width: 80%;
+}
+.h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+
+}
+.h1{
+    font-weight: bold;
+    font-size: 8.5vmin;
+    padding: 0.1em 0em;
+}
+.p{
+    padding: 1vmin 5vmin;
+    font-weight: 500;
+}
+.btn{
+    border-radius: 30px;
+    font-weight:bold ;
+}
+.section1{
+padding: 20vmin 0;
+}
+.section1 .row .col-md-6 .pray img{
+opacity: 0.8;
+width: 70%;
+height: 550px;
+border-radius: 0.2em;
+}
+.section1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -28vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0,0.2);
+    z-index: 1;
+}
+.section1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.pt-4{
+    font-size: 1em;
+    color: rgba(0,0,0,0.8);
+}
+.cover{
+    margin-top:8rem ;
+    height: 55vmin;
+    width: 100%;
+    background: url(./all-pic/img77.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: -0rem -10rem;
+}
+.cover .content{
+    background: rgba(63, 62, 62, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.h11{
+    font-size: 6vmin;
+    color: white;
+    font-weight: bold;
+}
+.p2{
+    color: #e5e5e5;
+    /* font-weight: bold; */
+}
+.rect{
+position: relative;
+z-index: 1;
+background: white;
+width: 14rem;
+height: 10rem;
+padding-top: 4vmin;
+margin: 1rem;
+border-radius: 4em;
+box-shadow: 0px 2px 10px 1px rgba(255,0, 0, 0.348);
+}
+.number{
+    margin: -15vmin;
+}
+.rect h1{
+    color: burlywood;
+    font-weight: bold;
+}
+/* .rect p{
+    color: beige;
+    font-weight: 500;
+} */
+.purchase{
+    padding-top: 30vmin;
+    font-size: 3vmin;
+    /* padding-bottom: 1rem; */
+}
+ .purchase .cards .card{
+    width: 15rem;
+    margin: 3vmin;
+}
+.purchase .cards{
+    margin-top:5rem;
+}
+.cards div{
+    padding: 0;
+}
+.purchase .cards .card .card-body .card-title{
+    background:var(--bggradient);
+    padding: 1.4rem 2.5rem;
+    font-size: 1rem;
+}
+.purchase .card-text{
+    padding: 0.2rem 3rem;
+    color: #949090;  
+}
+.purchase .pricing{
+    padding-top: 0.5rem;
+    background:var(--bggradient);
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+}
+
+.section3{
+    height: 70vmin;
+    background: var(--bggradient);
+}
+.section3 .col-md-12{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+.section3 .col-md-12 h1{
+   padding: 2em 0 0.5 0;
+}
+.section3 .col-md-12 p{
+    padding: 1em;
+}
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 8vmin;
+}
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+.section-4 .card .card-body a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.section-4 .card .card-body a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.border-rdius{
+    border-radius: 340px;
+    width: 60%;
+}
+footer{
+    background: rgba(0, 0,0, 0.85);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer input::placeholder{
+    color: white !important;
+}
+.dd{
+    color: rgb(117, 114, 114);
+    margin: 10px;
+}
+.column{
+    margin-left: 1rem;
+}
+.column i{
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+}
+
